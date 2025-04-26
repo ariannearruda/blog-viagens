@@ -1,0 +1,206 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f8fe2; /* Azul claro */
+    color: #333;
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #008000; /* Verde */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+
+header h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+
+/* Navegação */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+nav ul li {
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+nav ul li a:hover {
+    background-color: #008000;
+    border-radius: 5px;
+}
+
+
+/* Organização do catálogo de viagens */
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+/* Ajuste das seções */
+section {
+    width: 65%; /* Ocupa menos espaço, parecendo um catálogo */
+    background-color: white;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 5px gray;
+}
+
+
+/* Redução das imagens */
+section img {
+    width: 80%; /* Diminui o tamanho das imagens */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px gray;
+    margin-bottom: 10px;
+}
+
+
+/* Estilo para a seção "Quem Somos" */
+#quem-somos {
+    background-color: #f0fff0; /* Fundo verde claro */
+    width: 90%; /* Limita largura total */
+    display: flex; /* Alinhamento horizontal */
+    flex-wrap: wrap; /* Permite quebra de linha se necessário */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaçamento entre os elementos */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 2px 5px gray; /* Sombra leve */
+}
+
+
+#quem-somos h3 {
+    flex: 1; /* Ocupa espaço proporcional */
+    font-size: 2.5em;
+    color: #008000; /* Verde */
+    text-shadow: 1px 1px 2px #ccc; /* Sombra no texto */
+}
+
+
+#quem-somos p {
+    flex: 2; /* Ocupa mais espaço que o título */
+    font-size: 1.5em;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+/* Destaque das dicas */
+article#dicas {
+    background-color: #e6ffe6; /* Fundo verde suave */
+    border: 2px solid #008000; /* Borda verde */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 2px 5px gray;
+}
+
+
+article#dicas ul {
+    padding: 0; /* Remove espaçamento externo */
+    list-style-type: none; /* Remove os números */
+    text-align: left; /* Alinha as dicas para facilitar leitura */
+}
+
+
+article#dicas ul li {
+    margin-bottom: 10px; /* Espaçamento entre as dicas */
+    font-size: 1.2em; /* Tamanho maior */
+}
+
+
+/* Ajuste para o formulário alinhado horizontalmente */
+form {
+    display: flex; /* Elementos organizados em linha */
+    flex-wrap: wrap; /* Permite quebra de linha se necessário */
+    justify-content: space-between; /* Espaça os elementos horizontalmente */
+    gap: 20px; /* Espaço entre os itens */
+    width: 90%; /* mais largura */
+    margin: 20px auto; /* Centraliza o formulário */
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px gray;
+}
+
+
+form label {
+    width: 100%; /* largura cheia */
+    margin-bottom: 5px;
+}
+
+
+form input, form textarea, form select, form button {
+    flex: 1; /* espaço proporcional */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+form textarea {
+    flex: 2;
+}
+
+
+form button {
+    background-color: #008000; /* Verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+form button:hover {
+    background-color: #005700; /* Verde escuro */
+}
+
+
+/* Espaço a mais no rodapé */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
